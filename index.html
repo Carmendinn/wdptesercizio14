@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flight with us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand ms-4" href="#">FWU</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--JUMBOTRON-->
+    <div class="container" id="container">
+        <div class="my-5">
+            <div class="p-5 text-center" id="jumbotron">
+                <div class="container py-5">
+                    <h1 class="text-body-emphasis">Flight With Us!</h1>
+                    <p class="col-lg-8 mx-auto lead">
+                        "Your Passport to Adventure: Start Your Journey with Flight With Us!"
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+    </div>
+    <!--OFFERTA DELLA SETTIMANA-->
+    <div class="title text-center ">
+        <h5 id="title">OFFERTE DELLA SETTIMANA</h5>
+    </div>
+    <div class="container offerta">
+        <div class="row .custom-class">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card mb-4">
+                    <img src="NY.jpeg" class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Christmas in New York 2024</h5>
+                        <p class="card-text">Guide For The Magical Christmas Season.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 20 AL 27 DICEMBRE</li>
+                        <li class="list-group-item">da 1250€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0012/1657/7656/files/girl-walking-towards-a-huge-monument-december-bali-weather-school-holidays-very-few-days-time-to-visit-bali-trip-visiting-bali-holidays-sunny-morning-moderate-rainfall.jpg?v=1692038276"
+                        class="card-img-top mt-4" alt="Bali 2024">
+                    <div class="card-body">
+                        <h5 class="card-title">Adventure in Bali 2024</h5>
+                        <p class="card-text">This lush and picturesque island has no shortage of things to do!</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DA APRILE AD AGOSTO</li>
+                        <li class="list-group-item">da 1449€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://www.fodors.com/wp-content/uploads/2022/04/jake-blucker-8LlJNFLTEm0-unsplash.jpg"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Los Angeles 2024</h5>
+                        <p class="card-text">Our guide to the best things to do and see in Los Angeles, California.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 4 AL 15 SETTEMBRE</li>
+                        <li class="list-group-item">da 1099€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://www.agoda.com/wp-content/uploads/2019/06/Singapore-Itinerary-Marina-Bay-Sands.jpg"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Visit Singapore 2024</h5>
+                        <p class="card-text">About Singapore what is certain is that is a city of passion and
+                            possibilities.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 14 AL 28 MAGGIO</li>
+                        <li class="list-group-item">da 2099€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!--WELCOME SUMMER-->
+    <div class="title text-center ">
+        <h5 id="title">WELCOME SUMMER</h5>
+    </div>
+    <div class="container offerta">
+        <div class="row .custom-class">
+            <div class="col-lg-2  col-md-4 col-sm-6 col-12 shadow-sm">
+                <div class="card mb-4">
+                    <img src="https://www.volverviaggi.it/wp-content/uploads/2018/03/CARAIBI.jpg"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Caraibi da sogno 2024</h5>
+                        <p class="card-text">Paradisi tropicali che accolgono lunghe spiagge dorate.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 7 AL 27 SETTEMBRE</li>
+                        <li class="list-group-item">da 2099€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6 col-12 shadow-sm">
+                <div class="card mb-4">
+                    <img src="https://static2-viaggi.corriereobjects.it/wp-content/uploads/2019/12/iStock-vedere-aurora-boreale-1080x799.jpg?v=1576597577"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Finlandia e l'aurora 2024</h5>
+                        <p class="card-text">Partire per andare a caccia di aurore boreali.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 5 AL 20 APRILE/MAGGIO</li>
+                        <li class="list-group-item">da 999€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6 col-12 shadow-sm">
+                <div class="card mb-4">
+                    <img src="GIAPPONE.jpeg" class="card-img-top mt-4" alt="Giapone">
+                    <div class="card-body">
+                        <h5 class="card-title">Giappone in tour 2024</h5>
+                        <p class="card-text">Un'occasione unica per conoscere il Giappone e i suoi vivi contrasti.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DA LUGLIO A FINE AGOSTO</li>
+                        <li class="list-group-item">da 1390€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6 col-12 shadow-sm">
+                <div class="card mb-4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/10/0a/5f/jacuzzi-water-villas.jpg?w=1200&h=-1&s=1"
+                        class="card-img-top mt-4" alt="Giapone">
+                    <div class="card-body">
+                        <h5 class="card-title">Meeru Maldives 2024</h5>
+                        <p class="card-text">The St. Regis Maldives Resort offers an exquisite experience.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 1 MARZO A GIUGNO</li>
+                        <li class="list-group-item">da 2590€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6 col-12 shadow-sm">
+                <div class="card mb-4">
+                    <img src="cappadocia2.jpg" class="card-img-top mt-4" alt="Giapone">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappadocia, Turkey 2024</h5>
+                        <p class="card-text">Discover rose-tinted valleys and towering ‘fairy chimneys’ .</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 15 MAGGIO A GIUGNO</li>
+                        <li class="list-group-item">da 1590€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2  col-md-4 col-sm-6 col-12 shadow-sm">
+                <div class="card mb-4">
+                    <img src="POLYNESIA.jpg" class="card-img-top mt-4" alt="Polynesia">
+                    <div class="card-body">
+                        <h5 class="card-title">Polynesia Experience 2024</h5>
+                        <p class="card-text">So many ways to experience French Polynesia’s lagoons...</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 1 GIUGNO AD AGOSTO</li>
+                        <li class="list-group-item">da 1890€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--LAST MINUTE-->
+    <div class="title text-center ">
+        <h5 id="title">LAST MINUTE</h5>
+    </div>
+    <div class="container offerta">
+        <div class="row .custom-class">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card mb-4">
+                    <img src="https://a.cdn-hotels.com/gdcs/production143/d357/42fb6908-dcd5-4edb-9f8c-76208494af80.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Rio De Janeiro 2024</h5>
+                        <p class="card-text">In Rio de Janeiro, every day is a party. Rio is a place like no other in
+                            the world.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 20 AL 27 DICEMBRE</li>
+                        <li class="list-group-item">da 1250€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/0c/ec/d3.jpg"
+                        class="card-img-top mt-4" alt="Bali 2024">
+                    <div class="card-body">
+                        <h5 class="card-title">Visit Jerusalem 2024</h5>
+                        <p class="card-text">A surreal and vibrant city, Jerusalem is holy to Jews, Muslims, and
+                            Christians </p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DA APRILE AD AGOSTO</li>
+                        <li class="list-group-item">da 1449€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://www.travelandleisure.com/thmb/k53-FUyx7Uyg1CzpuTuMSZXvY64=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-DUBAITG1123-17390625954c4be3902a440d8fffde67.jpg"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Dubai 2024</h5>
+                        <p class="card-text">This Glamorous Middle Eastern City Has Luxury Hotels and Thrilling Desert
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 4 AL 15 SETTEMBRE</li>
+                        <li class="list-group-item">da 1099€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://cdn-vsh.prague.eu/file/edee/2014/09/cd-pano-579-kolebka-312-archiv_0187_panorama_neg41_31.jpg"
+                        class="card-img-top mt-4" alt="Christmas in New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Visit Prague 2024</h5>
+                        <p class="card-text">You don’t have to be an expert in order to appreciate the diversity of the
+                            city.</p>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">DAL 14 AL 28 MAGGIO</li>
+                        <li class="list-group-item">da 2099€</li>
+                    </ul>
+                    <div class="card-body text-center">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <!--RECENSIONI-->
+    <div class="title text-center">
+        <h5 id="title">TESTIMONIALS</h5>
+    </div>
+    <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32"
+                    class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">My experience...</h6>
+                        <p class="mb-0 opacity-75">“My experience on this tour was absolutely fantastic! This tour is
+                            one I’ll never forget, and have spoken about with many family and friends since.” -Heather,
+                            USA</p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">now</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32"
+                    class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">WOW!!!</h6>
+                        <p class="mb-0 opacity-75">“The tour was great! We had a fantastic driver/guide and we really
+                            enjoyed the tour. ” -Tanya, South Africa</p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">3d</small>
+                </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32"
+                    class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                    <div>
+                        <h6 class="mb-0">Love it</h6>
+                        <p class="mb-0 opacity-75">Thank you so much to Shayke for our Jerusalem Day Tour. He has a vast
+                            knowledge of the city and history. We had great discussions and really enjoyed the sites. He
+                            was also great with our kids and we would highly recommend him! Toda raba!” -David and the
+                            Buchler family, USA.</p>
+                    </div>
+                    <small class="opacity-50 text-nowrap">1w</small>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container form-floating">
+        <textarea class="form-control mt-5" placeholder="Tell us your experience..." id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Tell us your experience...</label>
+    </div>
+    <!--FOOTER-->
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div>
+                    <a class="navbar-brand ms-4" href="#">FWU</a></div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Recensioni</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Lavora con noi</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Offerte</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mt-5">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/5581abaa8c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
